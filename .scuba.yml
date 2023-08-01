@@ -1,0 +1,6 @@
+image: matthewtingum/muslcc-mipsel:0.1
+
+aliases:
+  test:
+    script:
+      - mipsel-linux-musl-gcc main.c -static -o test
